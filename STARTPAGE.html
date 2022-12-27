@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New tab</title>
+    <style>
+        html {
+            align-items: center;
+            color: #313131;
+            display: flex;
+            font: 22px "Courier New", Courier, monospace;
+            height: 100%;
+            justify-content: center;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            margin: 1em;
+            padding: 1em;
+        }
+
+        h1 {
+            font-size: 2em;
+            grid-column: 1 / -1;
+            margin: 0;
+            text-align: center;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:focus,
+        a:hover {
+            color: #1d81b2;
+        }
+
+        nav {
+            display: grid;
+            grid-row-gap: 1em;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 1em;
+            min-width: 24em;
+            padding: 1em 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            white-space: nowrap;
+        }
+
+        li:first-child {
+            font-weight: bold;
+            line-height: 2em;
+        }
+
+        img {
+            border: 2px solid #313131;
+            height: auto;
+            object-fit: cover;
+            object-position: 50% 100%;
+            width: 8em;
+        }
+
+        form {
+            margin: 1em;
+            position: relative;
+        }
+
+        form input[type="search"] {
+            background-color: rgba(255, 255, 255, 0.95);
+            border: none;
+            box-sizing: border-box;
+            font-weight: bold;
+            font: inherit;
+            width: 100%;
+        }
+
+        form label {
+            color: #1d81b2;
+            left: -1em;
+            position: absolute;
+        }
+
+        form:focus-within input::placeholder {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>
+            <li><a href="https://www.google.com/">Google</a></li>
+        </h1>
+        <ul>
+            <li>General</li>
+            <li><a href="https://mail.google.com/mail/u/1/#inbox">Gmail</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><a href="https://send.firefox.com/">FF Send</a></li>
+        </ul>
+
+        <ul>
+            <li>Universidad</li>
+            <li><a href="https://neoapp-b8d04eb44.dispatcher.us1.hana.ondemand.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-theme=sap_belize_plus&sap-client=400&sap-language=ES#Shell-home">SAP</a></li>
+            <li><a href="https://campusvirtual.aulavirtualusmp.pe/mdlfia37/login/index.php">Aula Virtual</a></li>
+            <li><a href="https://outlook.office365.com/mail/inbox/id/AAQkAGY1YzI0ZDI5LTJjOWEtNDEzNy1hZGFhLWZlNWMzZjQ5ZTIxNwAQAAigh4q0F2tEizwzIG%2FHjgo%3D">Correo Institucional</a></li>
+        </ul>
+
+        <ul>
+            <li>Home</li>
+            <li><a href="https://stpg.tk/">Rent portal</a></li>
+            <li><a href="https://www.theonion.com/">Shopping list</a></li>
+            <li><a href="https://send.firefox.com/">Goals</a></li>
+        </ul>
+
+        <ul>
+            <li>Ocio</li>
+            <li><a href="https://www.youtube.com/playlist?list=PL1aHumuRSLrohhFJagRAEE8_3XwE7TiJV">Musica</a></li>
+            <li><a href="https://www.chess.com/home">Chess</a></li>
+            <li><a href="https://www.instagram.com/">Instagram   </a></li>
+        </ul>
+    </nav>
+
+    <img src="IMG_4707.PNG">
+</body>
+
+</html>
